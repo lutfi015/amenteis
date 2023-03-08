@@ -36,6 +36,12 @@ padding: 20px;
 
 }
 
+.logo-amenteis{
+  height: 60px;
+  width: 450px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
 .search-bar {
   width: 90%;
   max-width: 800px;
