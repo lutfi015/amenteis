@@ -13,7 +13,7 @@ body {
 }
 
 .container-navbar {
-  height: 85px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   padding: 0 50px 0 2px;
@@ -37,7 +37,7 @@ body {
 }
 
 .logo-alphabet{
-  padding-right: 470px;
+  padding-right: auto;
   margin: auto;
   font-family: 'Alegreya';
   font-size: 10px;
@@ -58,21 +58,21 @@ body {
 }
 
 .search-bar {
-  width: 90%;
+  width: 100%;
   max-width: 800px;
   display: flex;
-  padding: 2px;
+  padding: auto;
   border-radius: 5px;
-
+  margin-top: 5;
 }
 #select {
   margin-left: 10px;
   background-color: #eb6d20;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   color: white;
-  width: 300px;
+  width: 200px;
   padding: 1px 20px;
   cursor: pointer;
   position: relative;
