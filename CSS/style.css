@@ -26,7 +26,7 @@ body {
 
 .left-logo a i{
   color: white;
-padding: 20px;
+  padding: 20px;
 }
 
 .right-search {
@@ -36,12 +36,27 @@ padding: 20px;
 
 }
 
-.logo-amenteis{
-  height: 60px;
-  width: 450px;
-  margin-top: 15px;
-  border-radius: 10px;
+.logo-alphabet{
+  padding-right: 470px;
+  margin: auto;
+  font-family: 'Alegreya';
+  font-size: 10px;
+  justify-content: space-between;
+  
 }
+
+.logo-alphabet a:hover {
+  text-decoration: none;
+  color: #ff7676;
+  text-decoration: none;
+}
+
+.logo-alphabet a {
+  text-decoration: none;
+  color: #ff5252;
+  text-decoration: none;
+}
+
 .search-bar {
   width: 90%;
   max-width: 800px;
@@ -51,14 +66,14 @@ padding: 20px;
 
 }
 #select {
-  margin-left: 50px;
+  margin-left: 10px;
   background-color: #eb6d20;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   width: 300px;
-  padding: 1px 10px;
+  padding: 1px 20px;
   cursor: pointer;
   position: relative;
   border-radius: 50px;
