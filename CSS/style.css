@@ -186,7 +186,20 @@ padding: 20px;
   cursor: pointer;
 }
 
+.right-acc .loginclick {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .right-acc .shopping h1 {
+  font-size: 14px;
+  padding-left: 8px;
+  padding-top: 10px;
+  color: #3e3e3e;
+}
+
+.right-acc .shopping  {
   font-size: 14px;
   padding-left: 8px;
   padding-top: 10px;
@@ -1201,3 +1214,7 @@ padding: 20px;
 .paling-bawah .privacy span {
   padding: 0 48px 0 0;
 }
+
+/*css bagian account page*/
+
+
