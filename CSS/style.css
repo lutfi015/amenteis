@@ -20,7 +20,7 @@ body {
   background-color: black;
 }
 
-.left-logo{
+.left-logo {
   display: flex ;
 }
 
@@ -131,37 +131,6 @@ body {
 #select ul.open {
   max-height: 300px;
 }
-
-/* .right-search > form {
-  padding-top: 15px;
-}
-
-.input {
-  position: relative;
-}
-
-.right-search .search-box .combo-box-top {
-  position: absolute;
-  top: 7;
-  left: 11;
-  padding: 9px 3px;
-  border-radius: 25px;
-  border: none;
-  background-color: #f5f6f8;
-}
-.right-search .search-box img {
-  position: absolute;
-  top: 15;
-  right: 18;
-  cursor: pointer;
-}
-
-.inside-search-box {
-  padding: 16px 320px 16px 160px;
-  border-radius: 25px;
-  border: none;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-} */
 
 .right-acc {
   display: flex;
