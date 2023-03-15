@@ -1,185 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- FILE FONTAWESOME -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <script
+    src="https://kit.fontawesome.com/a59b9b09ab.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- AKHIR FILE FONTAWESOME -->
+
+  <!-- FILE CSS -->
+  <link rel="stylesheet" href="/CSS/login.css" />
+  <!-- AKHIR FILE CSS -->
+
+  <!-- FONT GOOGLE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- AKHIR FONT GOOGLE -->
+
+  <!-- BOOTSRAP -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"
+  />
+  <!-- AKHIR BOOTSRAP -->
+  <link rel="icon" href="/IMG/icon amenteis.jpg" type="image/icon">
+  <title>Login</title>
 </head>
-<style> body {
-    font-family: Helvetica;
-    margin: 0;
-  }
-  a {
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-  }
-  .site-header { 
-    border-bottom: 1px solid #000000;
-    padding: .5em 1em;
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-  }
-  
-  .site-identity h1 {
-    font-size: 1.5em;
-   
-    display: inline-block;
-   
-   left: 47%;
-    
-    position: absolute;
- right: 53%;
-  
 
-  }
-  
-  
-  .site-navigation ul, 
-  .site-navigation li {
-    margin: 0; 
-    padding: 0;
-  }
-  
-  .site-navigation li {
-    display: inline-block;
-    margin: 1.4em 1em 1em 1em;
-  }
-
-  @import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-.login-page {
-  width: 360px;
-  padding: 8% 0 0;
-  margin: auto;
-}
-.form {
-  position: relative;
-  z-index: 1;
-  background: #FFFFFF;
-  max-width: 360px;
-  margin: 0 auto 100px;
-  padding: 45px;
-  text-align: center;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-}
-.form input {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-.form button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #000000;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
-}
-.form button:hover,.form button:active,.form button:focus {
-  background: #000000;
-}
-.form .message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
-}
-.form .message a {
-  color: #000000;
-  text-decoration: none;
-}
-.form .register-form {
-  display: none;
-}
-.container {
-  position: relative;
-  z-index: 1;
-  max-width: 300px;
-  margin: 0 auto;
-}
-.container:before, .container:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.container .info {
-  margin: 50px auto;
-  text-align: center;
-}
-.container .info h1 {
-  margin: 0 0 15px;
-  padding: 0;
-  font-size: 36px;
-  font-weight: 300;
-  color: #1a1a1a;
-}
-.container .info span {
-  color: #4d4d4d;
-  font-size: 12px;
-}
-.container .info span a {
-  color: #000000;
-  text-decoration: none;
-}
-.container .info span .fa {
-  color: #EF3B3A;
-}
-body {
-  background: #ffffff; /* fallback for old browsers */
-  background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%);
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
-}
-  </style>
 
 <body>
-    <header class="site-header">
-        <div class="site-identity">
-          <h1><a href="index.html">amenteis</a></h1>
-        </div>  
-        <nav class="site-navigation">
-          <ul class="nav">
-           
-            <li><a href="#">about</a></li> 
-       
-          </ul>
-        </nav>
-      </header>
-
-      <div class="login-page">
-        <div class="form">
-          <form class="register-form">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="text" placeholder="email address"/>
-            <button>create</button>
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
-          </form>
-          <form class="login-form">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <a href="index.html"><button onclick="navigateTo('index.html')">LOGIN</a></button>
-           
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
-          </form>
+<!-- Appbar -->
+<body id="top">
+  <div class="container-navbar">
+    <div class="left-logo" >
+      <a href="" ><i class="fa-solid fa-bars fa-2x"></i></a>
+      <div class="right-search" style="margin-top: -5px;">
+        <div class="search-bar">
+          
+          <input
+            type="text"
+            id="inputfield"
+            placeholder="Search In All Categories"
+            style="  border-radius: 50px;"
+          />
         </div>
       </div>
+    </div>
+
+    <div class="logo-alphabet">
+      <a href=""><h1><b>&acirc;</b><b>menteis</b></h1></a>
+    </div>
+
+    <div class="right-acc">
+      <div id="select">
+        <div class="arrow">
+          <p id="selectText">All Categories</p>
+          <a href=""><i class="fa-solid fa-caret-right"></i></a>
+        </div>
+        <ul id="list">
+          <li class="option" style="margin-left: -12px">All Categories</li>
+          <li class="option">Sneaker</li>
+          <li class="option">Luxury</li>
+          <li class="option">Apparel</li>
+          <li class="option">Toys</li>
+        </ul>
+      </div>
+      <div class="LoginPage">
+        <a href="loginpage.html"><h1>Login</h1></a>
+      </div>
+      <div class="RegisterPage">
+        <a href=""><h1>Register</h1></a>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Appbar -->
 </body>
 <script>
 
