@@ -8,10 +8,12 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Appbar CSS */
 .container-navbar {
   height: 70px;
   display: flex;
@@ -174,60 +176,117 @@ body {
   padding-top: 10px;
   color: #ffffff;
 }
+/* Akhir Appbar CSS */
 
-.sidebar{
-  background-color: white;
-  border-radius: 10px; 
-  height: 62%; 
-  width: 200px;
-  position: fixed;
-  margin-left: 30px;
+/* Sidebar */
+.bg-profile{
+  display: flex;
+  flex-direction: row;
 }
+.sidebar{
+  border: solid;
+  border-color: black;
+  /* background-color: yellow; */
+  border-radius: 10px; 
+  height: 700px; 
+  width: 350px;
+  margin: 45px;
+}
+
 .sidebar-nav {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.sidebar-nav li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.sidebar_menu{
-  font-weight: bold;
+.user-information{
   display: flex;
-  flex-direction: row;
-  align-content: center;
-  list-style: none;
-  
+  margin: 30 0 0 20;
 }
-.sidebar_menu button{
-  margin-top: 10px;
-  border-radius: 20px;
-  outline: 0;
-  background: transparent;
-  width: 100%;
-  border: 0;
-  padding: 5px;
-  color: #1F4F70;
-  font-size: 14px;
-  cursor: pointer;
-  font-weight: bold;
+
+.Walpoint {
+  /* background-color: yellow; */
+  display: flex;
+  height: 120px;
+  margin: 0 10;
+  justify-content: center;
+}
+
+.Wallet {
+  background-color: black;
+  width: 140px;
+  height: 90px;
+  margin: 10px;
+  padding: 2px 10px;
+  border-radius: 10px;
+  border: solid;
+  line-height: 28px;
+}
+
+.Wallet span.title{
+  font-family: 'Alegreya';
   font-size: 20px;
 }
-.sidebar_menu button:hover,.form button:active,.form button:focus {
-  background: #57B9D4;
+
+.Wallet span.balance{
+  font-family: 'Alegreya';
+  font-size: 13px;
 }
-.sidebar_setting{
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  list-style: none;
+
+.Wallet span.balance-value{
+  font-family: 'Alegreya';
+  font-size: 20px;
 }
-.sidebar_setting p {
+
+.Wallet span{
+  padding: 0px;
+  color: white;
+}
+
+.Point {
+  padding: 2px 10px;
+  background-color: blue;
+  width: 140px;
+  height: 90px;
+  padding: auto;
+  margin: 10;
+  border-radius: 10px;
+  border: solid;
+  line-height: 28px;
+}
+
+.Point span.title{
+  font-family: 'Alegreya';
+  font-size: 20px;
+}
+
+.Point span.balance{
+  font-family: 'Alegreya';
+  font-size: 13px;
+}
+
+.Point span.balance-value{
+  font-family: 'Alegreya';
+  font-size: 20px;
+}
+
+.Point span{
+  padding: 0px;
+  color: white;
+}
+
+.Profile-photo{
+  margin: 5;
+  clip-path: circle(50%);
+}
+
+.profile-info{
   position: relative;
-  top: -10px;
-  font-size: 20px;
+  padding-left: 5px;
+  padding-top: 8px;
 }
+
+.profile-info h5{
+  margin-bottom: -1px;
+}
+
