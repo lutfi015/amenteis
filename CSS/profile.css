@@ -350,6 +350,7 @@ body {
 }
 
 .profile-edit {
+  justify-content: center;
   display: flex;
 }
 
@@ -357,11 +358,60 @@ body {
   align-items: center;
   width: 300;
   padding: 10 10 10 10;
-  margin-top: 80;
+  margin-top: 60;
+  margin-right: 40px;
 }
 
 .photo-profile img{
   object-fit: cover;
   width: max-content;
   clip-path: circle(50%);
+}
+
+.bio-profile {
+  width: 50%;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.title-bio {
+  font-family: 'Alegreya';
+  font-weight: 700;
+}
+
+#input-name {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+#edit-photo{
+  background-color: black;
+}
+
+#submit {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#submit :hover {
+  text-decoration: none;
+  color: #ffffff;
 }
