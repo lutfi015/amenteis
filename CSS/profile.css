@@ -184,7 +184,7 @@ body {
   flex-direction: row;
 }
 .sidebar{
-  border: solid;
+  border: 1px solid;
   border-color: black;
   /* background-color: yellow; */
   border-radius: 10px; 
@@ -210,18 +210,17 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   height: 120px;
-  margin: 0 10;
   justify-content: center;
 }
 
 .Wallet {
-  background-color: black;
+  background-color: rgb(61, 59, 59);
   width: 140px;
   height: 90px;
   margin: 10px;
   padding: 2px 10px;
   border-radius: 10px;
-  border: solid;
+  border: 1px solid;
   line-height: 28px;
 }
 
@@ -253,7 +252,7 @@ body {
   padding: auto;
   margin: 10;
   border-radius: 10px;
-  border: solid;
+  border: 1px solid;
   line-height: 28px;
 }
 
@@ -299,5 +298,26 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border: 1px solid;
+  height: 55px;
 }
 
+.top-up {
+  /* background-color: black; */
+  padding: 2px 10px  4 30px;
+  border-right: 1px solid;
+  line-height: 28px;
+  width: 170px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-out {
+  /* background-color: black; */
+  padding: 2px 10px;
+  border-left: 1px solid;
+  line-height: 28px;
+  width: 170px;
+  padding: 5px;
+  justify-content: flex-end;
+} 
