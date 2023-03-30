@@ -193,12 +193,6 @@ body {
   margin: 45px;
 }
 
-.sidebar-nav {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 .user-information{
   display: flex;
   margin: 30 0 0 20;
@@ -292,19 +286,17 @@ body {
 }
 
 .credit-action {
-  background-color: yellow;
-  display: flex;
-  flex: 1 1;
-  flex-direction: row;
   justify-content: center;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  border: 1px solid;
   height: 55px;
+  border: 1px solid;
 }
 
 .top-up {
   /* background-color: black; */
-  padding: 2px 10px  4 30px;
   border-right: 1px solid;
   line-height: 28px;
   width: 170px;
@@ -312,12 +304,64 @@ body {
   align-items: center;
 }
 
+.top-up p {
+  text-align: center;
+  margin: 0px;
+  height: 100%;
+  padding: 10px;
+}
+
+.cash-out p {
+  text-align: center;
+  margin: 0px;
+  height: 100%;
+  padding: 10px;
+}
+
 .cash-out {
   /* background-color: black; */
-  padding: 2px 10px;
   border-left: 1px solid;
   line-height: 28px;
   width: 170px;
-  padding: 5px;
   justify-content: flex-end;
 } 
+
+/* right bar */
+.right-bar {
+  height: 700px;
+  border: 1px solid;
+  margin: 45 0 45 10;
+  width: 900px;
+  border-radius: 10px;
+}
+
+.title-main-pp {
+  font-family: 'Alegreya';
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.title-main-pp p {
+  margin: 0px;
+}
+
+.setting-right {
+  font-size: 30px;
+}
+
+.profile-edit {
+  display: flex;
+}
+
+.photo-profile {
+  align-items: center;
+  width: 300;
+  padding: 10 10 10 10;
+  margin-top: 80;
+}
+
+.photo-profile img{
+  object-fit: cover;
+  width: max-content;
+  clip-path: circle(50%);
+}
