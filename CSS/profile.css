@@ -192,6 +192,36 @@ body {
   width: 350px;
   margin: 45px;
 }
+.menu button{
+  margin-top: 5px;
+  border-radius: 20px;
+  outline: 0;
+  background: transparent;
+  width: 100%;
+  border: 0;
+  padding: 5px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Alegreya'
+}
+
+#Icon {
+  height: 35;
+  margin-left: 20;
+  margin-top: 8;
+}
+
+
+.menu{
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  list-style: none;
+}
 
 .user-information{
   display: flex;
@@ -205,6 +235,7 @@ body {
   flex-wrap: wrap;
   height: 120px;
   justify-content: center;
+  margin-bottom: 70px;
 }
 
 .Wallet {
